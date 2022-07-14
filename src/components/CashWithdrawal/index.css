@@ -1,0 +1,73 @@
+/* Write your CSS here */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app-container {
+  height: 550px;
+  width: 600px;
+  background-color: #150b3e;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 15px;
+}
+.top-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.logo {
+  background-color: #c7d2fe;
+  padding: 25px;
+  color: #7c3aed;
+  border-radius: 250px;
+  margin: 10px;
+}
+.heading {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  padding: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.second-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second-head {
+  align-items: flex-start;
+  color: #585076;
+  margin-right: 130px;
+}
+.second-inner {
+  display: flex;
+  flex-direction: column;
+}
+.count {
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin: 5px;
+}
+.text {
+  color: #585076;
+  font-family: 'Roboto';
+}
+.head-one {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+}
+.head-two {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+}
